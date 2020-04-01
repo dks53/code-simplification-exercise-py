@@ -2,6 +2,10 @@
 from datetime import datetime
 import os
 
+
+# GOAL 1: simplfy USD formatting
+# GOAL 2: simplify receipt printing / file writing
+
 checkout_at = datetime.now().strftime("%M/%d/%Y %I:%m %p")
 
 selected_products = [
