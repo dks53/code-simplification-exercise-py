@@ -7,6 +7,8 @@ import os
 # GOAL 2: simplify tax rate
 # GOAL 3: simplify receipt printing / file writing
 
+# TESTING NEW CHANGES
+
 checkout_at = datetime.now().strftime("%M/%d/%Y %I:%m %p")
 
 selected_products = [
